@@ -1,0 +1,73 @@
+/* basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0;
+    padding: 0;
+    display: flex; */
+    /* justify-content: center; Page horizontally center */
+    /* align-items: center; Page vertically center */
+    /* min-height: 100vh; Full page height */
+    /* background-color: #f3f3f3; */
+} 
+
+header {
+    background-color: #3f8df5;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav a {
+    color: white;
+    margin-left : 20px;
+    text-decoration: none;
+}
+.logo {
+    text-align: center;
+    font-size: 80px;
+    margin: 10px ;
+    padding: 60px;
+    background-color: #a7c2d6;
+}
+.logo span {
+    font-size: 40px;
+    font-weight: bold;
+}
+.grid {
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    gap: 0px;
+    margin: 20px;
+    
+} 
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    flex-wrap: wrap;
+    
+    /* border: 2px solid #ccc; Border add kiya */
+}
+
+.box1 {background-color: #f7c548;}
+.box2 {background-color: #f78181;}
+.box3 {background-color: #81bff7;}
+.box4 {background-color: #a4f7d3;}
+.box5 {background-color: #d3a4f7;}
+
+/* .grid > .box:nth-child(2) {
+    grid-column: span 2;
+} */
